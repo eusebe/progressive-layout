@@ -3,7 +3,7 @@
 // #import "lib.typ": progressive-layout, progressive-outline
 
 // Apply the layout to the entire document
-#show: doc => progressive-layout(doc, show-numbering: true)
+#show: progressive-layout.with(show-numbering: true)
 
 = First Section : General Introduction
 
